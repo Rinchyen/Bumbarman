@@ -1,181 +1,57 @@
 # Who is Bumbarman?
 ##### Hello and Welcome to my page
+He is simple man with full of dreams and ambition and lately he created Youtube channel under nickname called **Bumbarman**
+
+  
+
+# He is a...
+
+  - Student 
+  - Youtuber
+  - Gamer
+  - Musician
+  - and a VERY optimistic person
+
+and also:
+  - He is gonna be 20 year old (soon)
+  - Currently live in Cracow(Poland)
+  - loves stuffed animals
+
+He once said that...
+
+> My parents didn't got me  a pet
+>even I begged for a dog since I was born
+> and in the end they got me stuffed animal
+
+and I think that is why he have obsession with stuffed animals.
+
+### What he can do?
+ As said before...
+ * He is student and he is studying as IT so that means he can write some code
+ * He is also a musician and he can play
+    * guitar
+    * piano
+    * drums
+    * and most of his national musical insturment
+* Since he is uploading videos on Youtube, he can also edit videos.
+### Where did he traveled
+
+| Places |Dates | Have uploaded video on Youtube |
+| ------ | ------ | ------ |
+| Wrocław,Poland | 2020-07-09 | No |
+| Warsaw, Poland | 2020-08-07 | Yes |
+| Łódż, Poland | 2020-11-07 | Yes |
+| Budapest, Hungary | 2020-08-05 |Yes  |
+| Keilce | 2020-01-09 | No |
+| Zakopane | 2020-01-10 | No |
+and he have plan to more places. I hope he document it and upload on youtube.
 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
-
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
-
-# New Features!
-
-  - Import a HTML file and watch it magically convert to Markdown
-  - Drag and drop images (requires your Dropbox account be linked)
 
 
-You can also:
-  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
-  - Drag and drop markdown and HTML files into Dillinger
-  - Export documents as Markdown, HTML and PDF
-
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
-
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
-
-### Tech
-
-Dillinger uses a number of open source projects to work properly:
-
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](https://breakdance.github.io/breakdance/) - HTML to Markdown converter
-* [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
-### Installation
-
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
-```sh
-$ cd dillinger
-$ npm install -d
-$ node app
-```
-
-For production environments...
-
-```sh
-$ npm install --production
-$ NODE_ENV=production node app
-```
-
-### Plugins
-
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
-
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
-
-
-### Development
-
-Want to contribute? Great!
-
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
-```sh
-$ node app
-```
-
-Second Tab:
-```sh
-$ gulp watch
-```
-
-(optional) Third:
-```sh
-$ karma test
-```
-#### Building for source
-For production release:
-```sh
-$ gulp build --prod
-```
-Generating pre-built zip archives for distribution:
-```sh
-$ gulp build dist --prod
-```
-### Docker
-Dillinger is very easy to install and deploy in a Docker container.
-
-By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
-
-```sh
-cd dillinger
-docker build -t joemccann/dillinger:${package.json.version} .
-```
-This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `${package.json.version}` with the actual version of Dillinger.
-
-Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
-
-```sh
-docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:${package.json.version}
-```
-
-Verify the deployment by navigating to your server address in your preferred browser.
-
-```sh
-127.0.0.1:8000
-```
-
-#### Kubernetes + Google Cloud
-
-See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
-
-
-### Todos
-
- - Write MORE Tests
- - Add Night Mode
-
-License
-----
-
-MIT
-
-
-**Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+### Links
+![Youtube logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdsAAABqCAMAAADDRQtiAAAAh1BMVEX/////AAD/wMD/yMj/8vL/Skr/4uL/ExP/2tr/7u7/MDD/+Pj/9fX/t7f/Vlb/lZX/09P/5ub/Pj7/TU3/fn7/3Nz/ZGT/a2v/Li7/KSn/oaH/RET/vb3/r6//s7P/xsb/jY3/Xl7/hIT/IiL/eHj/cXH/nZ3/WVn/p6f/Ghr/goL/mJj/ODhfyCpPAAAEz0lEQVR4nO2d6XbaQAyFARubMZvNvsYsgUCS93++mpKeJpAm1LpCcxR9f5ukx/cee2YkjVSp/C+hC102bDQaaXAmr31C/vaPQVr8ZJQ555r//T8ZjDQLF7MoauQP+9VgvO7UC3pJkky2cUH1NoqfPE6LX3qdF7/dfxrtNt3DIo2iLHNhS/oJfyRRe9YdPM2T440OliCe9vrj1X4Z2Bt9L5r5yyjhc/RTOs8PQ+nn1k80ntzZ1zfi+dLeX07ClYyxZ+q59PMrpibp7IlxKC2BVkRf2jNHW3ZZ2Ekbe2KbSsugkYG0rW9E0kLoYybt6R9iC2iAGd4aZuJnI62FNjrSjr7Dllwo4qef9/Sl1dCFT69ttRpIy6EJJ+3mRwbSemjiRdrNC6T10MRY2swL7KMMw907p/cdXWlF9BBJe3nJWFoRPbSlvbwkcdKSqMGXUPJfMmlJ1NCXtvIKC02heJW28oq9tCRayLbSVl7xKK2JFlJpJ6/pSGuihYW0k9fMpTXRwoO0k9dM7BCEYS/t5DVWEwfiUdrJT7CIMgZC8rbPVYpjZegYCJmCtDHH+fmehbQoSiBYUHw6FywXiJbSoiiBYMFpWWx2GWIfK2FNtECw4LzlifC5/Z2wJkoICRb82c4G6HSDBaYgDAkW/D2qtLG1G6+CgigiIFjw7hjqNjBjC45yemiCEk7+EGKI1ihnq1bqiGFJcOAifARcdmW00MYB522lOUOdh0SkUAclVXAd9nXP5q0/dKHeFvvuEcJb63yBgNLm4vN0TQ1wHrJKRwR4bytNyrfgjCVwEVDOpf9Ms4bUmmerYkXA4m2lktLu9FpyHgHlDfvSAVIdliXnEVBKar5+uyjLbu1OT68bSs+w776cWenzkBVeIKAkX79fFfOSF1Lad3hy9TQpoYZbdjyHUvVyD+wP/gNg97YSlll2rWAKAed6+5tS3h64H/tHwLdPPlPum2zeIuD1NuiV+8vmLQK22EWFcgay9RYBJeHKF7uwfTICpngysf2NxS4Q+JkrsJgjAob8LSDHZ3kgBH7m5i1/iwBdL4WpqbG6CwSUBrt8tXBWL4WAMmGEr4bV6hwRAO8VWO25Z1COoXZnxG9ylLd218s7KC3/2O5omrcQKF3P2e5WbwUFUUSLYAFbT4SeqCR6IFjA1stkLayJFggWsPUgsgbKGAh9+9h6h71Ii6IEQkt76/nnOU/lLWDr1WnpWwz+jZCx9C0KSjMTJmJL32LwbqxXtTq1FB8Gr4ZWn+k1pUVRgoczZGwsOQgPZz/ZIE0U/s1sswG4KGiVxBzYEQgFNvOKwLbJKLwb2ja1sV4oKJ3PWVjbEQiF820ztZJWRBG+TW2zC5o4fJuk2ZIWRBPSZn7EBsgg8eujbH3DkHgVUk5slwyF0mQKjb22WDw6BlmJIxrKdC8osd3OhONLZU0kLYRGKH0vYMTW75wFygV6FFYDx0RwFHZ2ZLk9NlrdqaCzfbtMwIqbleybSiV+qlnIgp10dvcam+Nuadvju5Etus+7df2VsQQynvb6o8fNPrCsjwDN0LksioZ5e7YajNedekEvmSST7TE+cauJcXzcTpIk6dX7ndFu0z0sgmGUZS5s2WfYK0IXumzYOJEGee0rgt+kxU8OCyOdBZzuyy/nV14qu3CGiwAAAABJRU5ErkJggg==)
+**Subscribe to his [channel](https://www.youtube.com/channel/UCZ7XMI7PrStp9H0oieEdt4A) and don't forget to like and share**
+![](data:image/jpeg;base64,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)
+**and follow his [instagram](https://www.instagram.com/bumbar.man/?hl=en)**
+_**Thank you for paying attention and this is ~~THE END~~**_
